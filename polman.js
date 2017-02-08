@@ -1,7 +1,7 @@
 
 $(document).ready(function(){
 
-var LAST_UPDATED = '2/8';
+var LAST_UPDATED = '2015/02/08';
 
 var debug = location.search.indexOf("?debug") > -1;
 
@@ -798,7 +798,7 @@ function loadScreen(){
 
   ctx.fillStyle = "#DDDDDD";
   var messages = [
-    "POLMAN",
+    "POL-MAN",
     "",
     "last updated: " + LAST_UPDATED,
     "",
