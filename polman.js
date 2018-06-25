@@ -745,6 +745,8 @@ function turn(){
 
 
 function start(){
+  $('audio')[0].play();
+
   brain.started = true;
   brain.gameover = false;
   brain.victory = false;
